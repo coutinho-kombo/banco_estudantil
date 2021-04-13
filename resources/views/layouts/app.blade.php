@@ -85,24 +85,24 @@
     <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true" data-img="{{asset('asset/theme-assets/images/backgrounds/02.jpg')}}">
       <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">       
-          <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo" alt="Chameleon admin logo" src="{{asset('asset/theme-assets/images/logo/logo.png')}}"/>
+          <li class="nav-item mr-auto"><a class="navbar-brand" href="/"><img class="brand-logo" alt="Chameleon admin logo" src="{{asset('asset/theme-assets/images/logo/logo.png')}}"/>
               <h3 class="brand-text">Chameleon</h3></a></li>
           <li class="nav-item d-md-none"><a class="nav-link close-navbar"><i class="ft-x"></i></a></li>
         </ul>
       </div>
       <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-          <li class="active"><a href="index.html"><i class="ft-home"></i><span class="menu-title" data-i18n="">Principal</span></a>
+          <li class="active"><a href="/"><i class="ft-home"></i><span class="menu-title" data-i18n="">Principal</span></a>
           </li>
-          <li class=" nav-item"><a href="charts.html"><i class="ft-pie-chart"></i><span class="menu-title" data-i18n="">Estudante</span></a>
+          <li class=" nav-item"><a href="/estudantes/"><i class="ft-pie-chart"></i><span class="menu-title" data-i18n="">Estudante</span></a>
           </li>
-          <li class=" nav-item"><a href="icons.html"><i class="la-money"></i><span class="menu-title" data-i18n="">Contas</span></a>
+          <li class=" nav-item"><a href="/contas/"><i class="la-money"></i><span class="menu-title" data-i18n="">Contas</span></a>
           </li>
-          <li class=" nav-item"><a href="cards.html"><i class="ft-layers"></i><span class="menu-title" data-i18n="">Movimentos</span></a>
+          <li class=" nav-item"><a href="/movimentos/"><i class="ft-layers"></i><span class="menu-title" data-i18n="">Movimentos</span></a>
           </li>
-          <li class=" nav-item"><a href="buttons.html"><i class="ft-box"></i><span class="menu-title" data-i18n="">Extras</span></a>
+          <li class=" nav-item"><a href="/extras/"><i class="ft-box"></i><span class="menu-title" data-i18n="">Extras</span></a>
           </li>
-          <li class=" nav-item"><a href="typography.html"><i class="ft-book"></i><span class="menu-title" data-i18n="">Sobre</span></a>
+          <li class=" nav-item"><a href="/sobre/"><i class="ft-book"></i><span class="menu-title" data-i18n="">Sobre</span></a>
           </li>
          
         </ul>
