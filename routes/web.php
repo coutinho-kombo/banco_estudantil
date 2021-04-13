@@ -14,10 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', "HomeController@index")->name('home');
+Route::get('/', "SobreController@index")->name('sobre');
 
-Route::group(['prefix'=>"admin", ], function(){
-    
-    Route::group(['prefix'=>"estudantes"], function(){
+Route::group(['prefix' => "admin",], function () {
+
+    Route::group(['prefix' => "estudantes"], function () {
         Route::get('/', "EstudanteController@index");
         Route::get('/create', "EstudanteController@create");
         Route::get('/edit/{id}', "EstudanteController@edit");
@@ -25,6 +26,4 @@ Route::group(['prefix'=>"admin", ], function(){
         Route::post('/store', "EstudanteController@store");
         Route::put('/update/{id}', "EstudanteController@update");
     });
-
-    
 });
