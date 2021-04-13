@@ -94,15 +94,15 @@
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
           <li class="active"><a href="/"><i class="ft-home"></i><span class="menu-title" data-i18n="">Principal</span></a>
           </li>
-          <li class=" nav-item"><a href="/estudantes/"><i class="ft-pie-chart"></i><span class="menu-title" data-i18n="">Estudante</span></a>
+          <li class=" nav-item"><a href="/admin/estudantes/"><i class="ft-pie-chart"></i><span class="menu-title" data-i18n="">Estudante</span></a>
           </li>
-          <li class=" nav-item"><a href="/contas/"><i class="la-money"></i><span class="menu-title" data-i18n="">Contas</span></a>
+          <li class=" nav-item"><a href="/admin/contas/"><i class="la-money"></i><span class="menu-title" data-i18n="">Contas</span></a>
           </li>
-          <li class=" nav-item"><a href="/movimentos/"><i class="ft-layers"></i><span class="menu-title" data-i18n="">Movimentos</span></a>
+          <li class=" nav-item"><a href="/admin/movimentos/"><i class="ft-layers"></i><span class="menu-title" data-i18n="">Movimentos</span></a>
           </li>
-          <li class=" nav-item"><a href="/extras/"><i class="ft-box"></i><span class="menu-title" data-i18n="">Extras</span></a>
+          <li class=" nav-item"><a href="/admin/extras/"><i class="ft-box"></i><span class="menu-title" data-i18n="">Extras</span></a>
           </li>
-          <li class=" nav-item"><a href="/sobre/"><i class="ft-book"></i><span class="menu-title" data-i18n="">Sobre</span></a>
+          <li class=" nav-item"><a href="sobre/"><i class="ft-book"></i><span class="menu-title" data-i18n="">Sobre</span></a>
           </li>
          
         </ul>
